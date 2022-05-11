@@ -1,0 +1,12 @@
+* Introduction
+
+This script is my attempt to keep a reminder of how to create secure buckets on AWS S3.
+
+** How to use it?
+
+Fulfill the credentials and the filepath and execute the following code in your shell.
+
+#+NAME: simplest_ruby_way_to_aws_s3
+#+BEGIN_SRC shell
+AWS_KEY='your key' AWS_SECRET='your secret' AWS_BUCKET='your bucket' bundle exec cp2s3.rb /path/to/file/to/be/uploaded
+#+END_SRC
